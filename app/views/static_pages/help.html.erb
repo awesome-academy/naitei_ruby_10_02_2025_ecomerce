@@ -1,0 +1,8 @@
+<% provide :title, t("static_pages.help.title_main") %>
+<h1><%= t "static_pages.help.title" %></h1>
+<p>
+  <%= t "static_pages.help.description1" %>
+  <%= link_to Settings.urls.help do %>
+    <em><%= t "static_pages.help.description2" %></em>
+  <% end %>
+</p>
