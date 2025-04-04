@@ -56,7 +56,6 @@ textarea {
   text-decoration: none;
 }
 
-
 .background-image {
   background-image: url(asset-path('backgroundhome.jpg'));
   background-size: cover;
@@ -80,9 +79,46 @@ max-width: 380px;
   border-radius: 5px;
   transition: background 0.3s ease;
   text-decoration: none;
+  margin-top: 10px;
 }
 
 .btn-custom:hover {
   background-color: $button2;
   color: $hover-color;
+}
+
+.auth-container {
+  display: flex;
+  height: fit-content;
+  background-color: $login-bg;
+  margin-top: 30px;
+}
+
+.auth-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+.auth-image img {
+  max-width: 80%;
+  height: auto;
+}
+
+.auth-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
 }
