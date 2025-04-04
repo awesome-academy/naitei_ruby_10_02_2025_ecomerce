@@ -6,6 +6,7 @@ vi:
   profile: "Hồ sơ"
   settings: "Cài đặt"
   cart: "Giỏ hàng"
+  logout: "Đăng xuất"
   static_pages:
     home:
       title_main: "TRANG CHỦ"
@@ -31,3 +32,28 @@ vi:
     log_in: "Đăng nhập"
     logo: "Pandora"
     log_out: "Đăng xuất"
+  noti:
+    login_success: "Đăng nhập thành công"
+    invalid_login: "Email hoặc mật khẩu không hợp lệ"
+    logout_success: "Đăng xuất thành công"
+    user_not_found: "Người dùng không tồn tại"
+  errors:
+    messages:
+      blank: "không được để trống"
+      invalid: "không hợp lệ"
+      too_short: "quá ngắn (tối thiểu là %{count} ký tự)"
+    models:
+      user:
+        attributes:
+          name:
+            blank: "Tên không được để trống"
+          email:
+            blank: "Email không được để trống"
+            invalid: "Email không hợp lệ"
+          password:
+            blank: "Mật khẩu không được để trống"
+            too_short: "Mật khẩu quá ngắn (tối thiểu là %{count} ký tự)"
+  login:
+    remember_me: "Ghi nhớ tôi"
+    submit: "Đăng nhập"
+    password: "Mật khẩu"

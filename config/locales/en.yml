@@ -6,6 +6,7 @@ en:
   profile: "Profile"
   settings: "Settings"
   cart: "Cart"
+  logout: "Log out"
   static_pages:
     home:
       title_main: "HOME"
@@ -31,3 +32,12 @@ en:
     log_in: "Login"
     logo: "Pandora"
     log_out: "Log out"
+  noti:
+    login_success: "Login successfully"
+    ivalid_login: "Email or password is invalid"
+    logout_success: "Logout successfully"
+    user_not_found: "User not found"
+  login:
+    remember_me: "Remember me"
+    submit: "Log in"
+    password: "Password"
