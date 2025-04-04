@@ -3,3 +3,14 @@ urls:
 smtp:
   app_name: "Pandora"
   host_address: "http://127.0.0.1:3000"
+email:
+  max_length: 255
+  email_regex: "\\A[\\w+\\-.]+@[a-z\\d\\-.]+\\.[a-z]+\\z"
+password:
+  min_length: 4
+default:
+  digit_3: 3
+  digit_100: 100
+  digit_0: 0
+price:
+  max: 1000000000
