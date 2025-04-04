@@ -1,0 +1,88 @@
+@import 'bootstrap';
+@import 'color';
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  text-decoration: none;
+  color: $primary-color;
+}
+
+#logo:hover {
+  text-decoration: none;
+  color: $hover-color;
+}
+
+.navbar {
+  background-color: $secondary-color;
+  border-color: $secondary-color;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.nav li a {
+  color: $text-color;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  color: $hover-color;
+  text-decoration: none;
+}
+
+
+.background-image {
+  background-image: url(asset-path('backgroundhome.jpg'));
+  background-size: cover;
+  min-height: 400px;
+  background-position: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.description {
+max-width: 380px;
+}
+
+.btn-custom {
+  background-color: $button1;
+  color: $hover-color;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-custom:hover {
+  background-color: $button2;
+  color: $hover-color;
+}

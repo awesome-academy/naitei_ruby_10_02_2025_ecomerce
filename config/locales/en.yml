@@ -1,4 +1,33 @@
 en:
   base_title: "Pandora - EC Application"
   hello: "Hello world"
-
+  sign_up: "Sign up!"
+  log_in: "Log in"
+  profile: "Profile"
+  settings: "Settings"
+  cart: "Cart"
+  static_pages:
+    home:
+      title_main: "HOME"
+      title: "PANDORA - SYMBOL OF ETERNITY"
+      description1: "There are relationships that cannot be measured by time. There are moments, however small, that remain in the heart."
+      description2: "The infinity symbol, a symbol of eternal connection, of an embrace that holds love, of the peace of knowing that you always have a place to return to."
+      description3: "Pandora - A symbol of eternity, of relationships that never fade."
+      click: "Explore"
+    help:
+      title_main: "HELP"
+      title: "Help"
+      description1: "Get help on Pandora"
+      description2: "here"
+    about:
+      title: "About"
+      description: "Learn more about the Ruby on Rails Tutorial"
+    contact:
+      title: "Contact"
+      description: "Contact the Ruby on Rails Tutorial about the Pandora"
+  header:
+    home: "Home"
+    help: "Help"
+    log_in: "Login"
+    logo: "Pandora"
+    log_out: "Log out"

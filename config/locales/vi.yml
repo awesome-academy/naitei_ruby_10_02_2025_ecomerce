@@ -1,3 +1,33 @@
 vi:
   base_title: "Pandora - Ứng dụng thương mại điện tử"
   hello: "Xin chào thế giới"
+  sign_up: "Đăng ký!"
+  log_in: "Đăng nhập"
+  profile: "Hồ sơ"
+  settings: "Cài đặt"
+  cart: "Giỏ hàng"
+  static_pages:
+    home:
+      title_main: "TRANG CHỦ"
+      title: "PANDORA - BIỂU TƯỢNG CỦA SỰ VĨNH CỬU"
+      description1: "Có những mối quan hệ không đo đếm được bằng thời gian. Có những khoảnh khắc dù nhỏ bé nhưng lại đọng mãi trong tim."
+      description2: "Biểu tượng vô cực, biểu tượng của sự gắn kết vô tận, của vòng tay ôm trọn yêu thương, của sự an yên khi biết rằng bạn luôn có một nơi để trở về."
+      description3: "Pandora - Biểu tượng của sự vĩnh cửu, của những mối quan hệ không bao giờ phai nhạt."
+      click: "Khám phá"
+    help:
+      title_main: "TRỢ GIÚP"
+      title: "Trợ giúp"
+      description1: "Nhận trợ giúp về Pandora tại"
+      description2: "đây"
+    about:
+      title: "Giới thiệu"
+      description: "Tìm hiểu thêm về Ruby on Rails Tutorial"
+    contact:
+      title: "Liên hệ"
+      description: "Liên hệ với Ruby on Rails Tutorial về ứng dụng mẫu"
+  header:
+    home: "Trang chủ"
+    help: "Trợ giúp"
+    log_in: "Đăng nhập"
+    logo: "Pandora"
+    log_out: "Đăng xuất"
