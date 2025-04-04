@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2025_04_04_081152) do
+ActiveRecord::Schema[7.0].define(version: 2025_04_04_095030) do
   create_table "cart_items", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.bigint "cart_id", null: false
     t.bigint "product_id", null: false
@@ -84,9 +84,10 @@ ActiveRecord::Schema[7.0].define(version: 2025_04_04_081152) do
     t.string "username"
     t.string "phone"
     t.boolean "admin"
-    t.boolean "activated"
+    t.boolean "activated", default: true
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "remember_digest"
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 
