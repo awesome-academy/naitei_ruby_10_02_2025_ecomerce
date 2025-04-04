@@ -1,0 +1,5 @@
+urls:
+  help: "https://www.facebook.com/buitra210/"
+smtp:
+  app_name: "Pandora"
+  host_address: "http://127.0.0.1:3000"
