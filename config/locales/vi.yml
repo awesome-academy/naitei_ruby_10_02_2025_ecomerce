@@ -7,6 +7,16 @@ vi:
   settings: "Cài đặt"
   cart: "Giỏ hàng"
   logout: "Đăng xuất"
+  form:
+    name: "Tên"
+    description: "Mô tả"
+    price: "Giá"
+    quantity: "Số lượng tồn kho"
+    image: "Hình ảnh"
+    category: "Danh mục"
+    select_category: "Chọn danh mục"
+    submit: "Gửi"
+    cancel: "Hủy"
   static_pages:
     home:
       title_main: "TRANG CHỦ"
@@ -37,6 +47,13 @@ vi:
     invalid_login: "Email hoặc mật khẩu không hợp lệ"
     logout_success: "Đăng xuất thành công"
     user_not_found: "Người dùng không tồn tại"
+    product_not_found: "Sản phẩm không tồn tại"
+    create_product_success: "Tạo sản phẩm thành công"
+    create_product_fail: "Tạo sản phẩm thất bại"
+    update_product_success: "Cập nhật sản phẩm thành công"
+    update_product_fail: "Cập nhật sản phẩm thất bại"
+    delete_product_success: "Xóa sản phẩm thành công"
+    delete_product_fail: "Xóa sản phẩm thất bại"
   errors:
     messages:
       blank: "không được để trống"
@@ -57,3 +74,8 @@ vi:
     remember_me: "Ghi nhớ tôi"
     submit: "Đăng nhập"
     password: "Mật khẩu"
+  product:
+    title: "Tạo sản phẩm"
+    edit: "Chỉnh sửa sản phẩm"
+    delete: "Xóa sản phẩm"
+    confirm: "Bạn có chắc chắn không?"

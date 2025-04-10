@@ -1,9 +1,14 @@
-import { Application } from "@hotwired/stimulus"
+import { Application } from "@hotwired/stimulus";
+import "jquery";
+import "./custom/select2_custom";
 
-const application = Application.start()
+const application = Application.start();
 
-// Configure Stimulus development experience
-application.debug = false
-window.Stimulus   = application
-
-export { application }
+application.debug = false;
+window.Stimulus = application;
+document.addEventListener("turbo:load", () => {
+  $(".select2").select2({
+    allowClear: true,
+  });
+});
+export { application };

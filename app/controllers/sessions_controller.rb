@@ -8,7 +8,7 @@ class SessionsController < ApplicationController
       log_in(@user)
       remember_or_forget(@user)
       flash[:success] = t "noti.login_success"
-      redirect_to user_path(id: @user.id, locale: I18n.locale)
+      redirect_to user_path(id: @user.id)
     else
       flash.now[:danger] = t "noti.ivalid_login"
       render :new
