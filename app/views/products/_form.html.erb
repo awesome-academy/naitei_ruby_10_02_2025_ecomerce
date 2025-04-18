@@ -1,0 +1,40 @@
+<div class="form-product">
+  <h1><%= @product.new_record? ? t("product.title") : t("product.edit") %></h1>
+  <%= form_with(model: @product, local: true, data:{turbo:false}, html: { multipart: true }) do |form| %>
+    <% if @product.errors.any? %>
+      <div class="alert alert-danger">
+        <ul>
+          <% @product.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+    <div class="form-group">
+      <%= form.label t "form.name" %><br>
+      <%= form.text_field :name %>
+    </div>
+    <div class="form-group">
+      <%= form.label t "form.description" %><br>
+      <%= form.text_area :description %>
+    </div>
+    <div class="form-group">
+      <%= form.label t "form.price" %><br>
+      <%= form.number_field :price, step: 0.01 %>
+    </div>
+    <div class="form-group">
+      <%= form.label t "form.quantity" %><br>
+      <%= form.number_field :stock_quantity %>
+    </div>
+    <div class="form-group">
+      <%= form.label t "form.image" %><br>
+      <%= form.file_field :image %>
+    </div>
+    <div class="form-group">
+      <%= form.label :category_ids, t("form.category") %>
+      <%= form.collection_select :category_ids, Category.all, :id, :name, {}, { multiple: true, class: "form-control select2 js-category-select" } %>
+    </div>
+    <%= form.submit t("form.submit") %>
+    <%= link_to t("form.cancel"), root_path %>
+  <% end %>
+</div>

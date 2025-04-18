@@ -1,10 +1,10 @@
 <% provide :title, t("static_pages.home.title_main") %>
-<div class = "background-image">
+<div class="background-image">
   <div class="col-md-6 description">
     <h2><%= t "static_pages.home.title" %></h2>
     <p><%= t "static_pages.home.description1" %></p>
     <p><%= t "static_pages.home.description2" %></p>
     <p><%= t "static_pages.home.description3" %></p>
-    <%= link_to t("static_pages.home.click"), help_path(locale: I18n.locale), class: "btn-custom" %>
+    <%= link_to t("static_pages.home.click"), help_path(), class: "btn-custom" %>
   </div>
 </div>

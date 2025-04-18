@@ -1,4 +1,11 @@
 class Product < ApplicationRecord
+  has_one_attached :image
+
+  PERMITTED_ATTRIBUTES = [
+    :name, :description, :price,
+    :stock_quantity, :image,
+    {category_ids: []}
+  ].freeze
   has_many :product_categories, dependent: :destroy
   has_many :categories, through: :product_categories
 

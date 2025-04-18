@@ -7,6 +7,16 @@ en:
   settings: "Settings"
   cart: "Cart"
   logout: "Log out"
+  form:
+    name: "Name"
+    description: "Description"
+    price: "Price"
+    quantity: "Stock Quantity"
+    image: "Image"
+    category: "Category"
+    submit: "Submit"
+    select_category: "Select Category"
+    cancel: "Cancel"
   static_pages:
     home:
       title_main: "HOME"
@@ -37,7 +47,21 @@ en:
     ivalid_login: "Email or password is invalid"
     logout_success: "Logout successfully"
     user_not_found: "User not found"
+    product_not_found: "Product not found"
+    create_product_success: "Create product successfully"
+    create_product_fail: "Create product failed"
+    update_product_success: "Update product successfully"
+    update_product_fail: "Update product failed"
+    delete_product_success: "Delete product successfully"
+    delete_product_fail: "Delete product failed"
   login:
     remember_me: "Remember me"
     submit: "Log in"
     password: "Password"
+    create_product_success: "Create product successfully"
+    create_product_fail: "Create product failed"
+  product:
+    title: "Create Product"
+    edit: "Update Product"
+    delete: "Delete Product"
+    confirm: "Are you sure?"
